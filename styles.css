@@ -1,0 +1,41 @@
+/* use this to put borders around things... */
+body{
+		background: black; 
+		color:white;
+}
+
+a{
+	color:red;
+		text-decoration: none;
+
+}
+
+a:hover{
+	color: black;
+	background: white;
+}
+h4{
+	color:gray;
+}
+h4{
+	font-family: monospace;
+	font-size: 11pt;
+}
+
+li{
+	color: gray;
+	font-family: monospace;
+}
+.indent {
+	margin-left: 20px;
+}
+.crop-img{
+  max-height:260px;
+  max-width:100%;
+  margin-bottom: 20px;
+}
+
+.large-img{
+  max-width:100%;
+  margin-top: 10px;
+}
