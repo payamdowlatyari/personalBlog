@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Personal Blog</title>
+		<title>Payam Dowlatyari</title>
 
 		<!-- import bootstrap -->
 		<link rel="stylesheet"
@@ -19,6 +19,7 @@
 	</head>
 	<body class="indent">
 		<!-- some header info (from Matthew's code) -->
+		<span class="head_main">
 		<a 
 		href="index.html">
 			Home
@@ -30,72 +31,16 @@
 		</a>
 		&nbsp;
 		<a 
-		href="contact.html" class="greenlink">
+		href="contact.html">
 			Contact Me 
 		</a>
-
-		</hr>
-	<div class="container">
-		<h1>Image Gallery</h1>
-
-		<!--
-		   These are the thumbnail images.
-		   They are laid out using the 
-		   bootstrap grid.
-		   I have given them all the class
-		   "crop-image" which I use in the
-		   css and the javascript code.
-		-->
-		<div class="row">
-			<div class="col-md-3">
-				<img class="crop-img" 
-				  src="img_1.jpeg" 
-				  alt="graffittied building"/> 
-			</div>
-			<div class="col-md-3">
-				<img class="crop-img" 
-				  src="img_3.jpeg" 
-				  alt="display of cheese"/> 
-			</div>
-			<div class="col-md-3">
-				<img class="crop-img" 
-				  src="img_4.jpeg" 
-				  alt="synethesizer workshop"/> 
-			</div>
-			<div class="col-md-3">
-				<img class="crop-img" 
-				   src="img_2.jpeg" 
-				   alt="City night"/> 
-			</div>
-		</div>
-		<!--
-			this is the large image which is
-			on a row of its own. 
-			I will change it source in the 
-			javascript
-		-->
-		<div class="row">
-			<div class="col-md-12">
-				<img id="bigImage" 
-				  class="large-img" 
-				  src="img_1.jpeg" 
-				  alt="graffittied building"/> 
-			</div>
-		</div>
-	</div>
-
-	<script>
-		// when we click on the thumbnail
-		// we set the src attribute of the 
-		// big image to be the same as the 
-		// src of the image we have clicked on
-		// ("this"). This loads the same
-		// image file into the big image
-		$(".crop-img").click(function(){
-			$("#bigImage").attr('src', 
-				$(this).attr('src'));
-		});
-	</script>
+		&nbsp;
+		<a 
+		href="gallery.html">
+			Gallery 
+		</a>
+		</span>
+		<hr></hr>
 
 	</body>
 </html>

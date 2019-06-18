@@ -1,12 +1,12 @@
 /* use this to put borders around things... */
 body{
-		background: black; 
-		color:white;
+		background: white; 
+		color:gray;
 }
 
 a{
-	color:red;
 		text-decoration: none;
+		font-size: 15pt;
 
 }
 
@@ -15,19 +15,20 @@ a:hover{
 	background: white;
 }
 h4{
-	color:gray;
+	color:red;
 }
 h4{
 	font-family: monospace;
-	font-size: 11pt;
+	font-size: 12pt;
 }
 
 li{
-	color: gray;
+	color: red;
 	font-family: monospace;
 }
 .indent {
 	margin-left: 20px;
+	margin-top: 20px;
 }
 .crop-img{
   max-height:260px;
@@ -38,4 +39,9 @@ li{
 .large-img{
   max-width:100%;
   margin-top: 10px;
+}
+
+.head_main{
+	margin-top: 50px;
+	margin-left: 35%;
 }
