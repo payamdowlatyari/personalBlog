@@ -5,6 +5,7 @@ body{
 }
 
 a{
+	color: rgb(130,0,0);
 		text-decoration: none;
 		font-size: 15pt;
 
@@ -13,19 +14,26 @@ a{
 a:hover{
 	color: black;
 	background: white;
+	text-decoration: none;
 }
+
 h4{
-	color:red;
+
+	font-size:14pt;
 }
-h4{
-	font-family: monospace;
-	font-size: 12pt;
+h3{
+	color: rgb(25,25,112);
 }
 
 li{
-	color: red;
+	color: rgb(105,105,105);
+	font-size:12pt;
 	font-family: monospace;
 }
+
+
+
+
 .indent {
 	margin-left: 20px;
 	margin-top: 20px;
@@ -43,5 +51,21 @@ li{
 
 .head_main{
 	margin-top: 50px;
+	margin-left: 37%;
+}
+
+.sign_main{
+	margin-top: 100px;
+	margin-bottom: 20px;
+	margin-left: 40%;
+}
+
+.table_dim{
+	width: 100%;
+	height: 80%;
+
+}
+.pic_dim{
+	margin-top: 20%;
 	margin-left: 35%;
 }
